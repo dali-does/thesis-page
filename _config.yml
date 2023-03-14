@@ -1,26 +1,6 @@
 # Site
 repository: dali-does/thesis-page
 
-# Content configuration version
-version: 2
-
-# Personal info
-name: Adam Dahlgren Lindstrom
-title: PhD student
-email: dali@cs.umu.se
-website: https://www.umu.se/en/staff/adam-dahlgren-lindstrom/
-# website_title: Web (Website title override)
-
-# Dark Mode (true/false/never)
-darkmode: false
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-
-# Site
-repository: dali-does/thesis-page
-
 version: 2
 favicon: fa-fire
 
@@ -28,7 +8,7 @@ favicon: fa-fire
 name: Adam Dahlgren Lindstrom
 title: PhD student, Umeå University
 email: dali@cs.umu.se
-website: TBA
+website: https://www.umu.se/en/staff/adam-dahlgren-lindstrom/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
