@@ -5,7 +5,7 @@ repository: dali-does/thesis-page
 version: 2
 
 # Personal info
-name: Adam Dahlgren Lindström
+name: Adam Dahlgren Lindstrom
 title: PhD student
 email: dali@cs.umu.se
 website: TBA
@@ -17,21 +17,12 @@ darkmode: false
 # Social links
 #twitter_username: jekyllrb
 github_username:  dali-does
-  #stackoverflow_username: "00000001"
-  #dribbble_username: jekyll
-  #facebook_username: jekyll
-  #flickr_username: jekyll
-  #instagram_username: jekyll
-  #linkedin_username: jekyll
-  #xing_username: jekyll
-  #pinterest_username: jekyll
-  #youtube_username: jekyll
 orcid_username: 0000-0002-1112-2981
 googlescholar_username: LctkPQgAAAAJ
 
 # Additional icon links
 additional_links:
-- title: Link name
+- title: Google Scholar name
   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
   url: Link url (eg. https://google.com)
 
@@ -105,3 +96,64 @@ exclude : [
   "scripts/",
   "docker-compose.yml",
   ]
+
+# Site
+repository: dali-does/thesis-page
+
+version: 2
+favicon: images/favicon.ico
+
+# Personal info
+name: Adam Dahlgren Lindstrom
+title: PhD student
+email: dali@cs.umu.se
+website: TBA
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: jekyllrb
+github_username:  dali-does
+orcid_username: 0000-0002-1112-2981
+googlescholar_username: LctkPQgAAAAJ
+
+
+# About Section
+# about_title: About Me
+about_profile_image: https://www.umu.se/contentassets/82f461f9a9e44e6ba31f462e79da1849/Profilbild.jpg?v=1283924955
+about_content: |
+  Hi, my name is Adam Dahlgren Lindström, this is a website to keep relevant parties informed on the progress of my thesis writing.
+
+content:
+  - title: RQs# Title for the section
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: RQ 1
+        quote: >
+          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
+        description: |
+          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
+
+  - title: Published work
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: Probing
+        sub_title: Probing ...
+        caption: COLING 2020
+        description: |
+          Taken accountability for the frontend of the payments product area within a commercial banking platform, becoming a go to for knowledge and technical decisions.
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+# sass:
+#   style: compressed
