@@ -58,22 +58,22 @@ content:
       - layout: left
         border: weak
         title: Research Question 1
-        quote: >
+        description: |
           What are the contributions of introducing vision to language modeling?
       - layout: left
         border: weak
         title: Research Question 2
-        quote: >
+        description: |
           What are advantages and disadvantages of neuro-symbolic methods in multimodal language processing?
       - layout: left
         border: weak
         title: Research Question 3
-        quote: >
+        description: |
           Does utilizing hierarchical structures improve compositional generalisation in language grounding?
       - layout: left
         border: weak
         title: Research Question 4
-        quote: >
+        description: |
           What are the challenges and opportunities for language-centric learning on multimodal data, and what future research directions are there?
 
   - title: Published work
