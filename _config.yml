@@ -45,11 +45,11 @@ googlescholar_username: LctkPQgAAAAJ
 about_title: About Me
 about_profile_image: https://www.umu.se/contentassets/82f461f9a9e44e6ba31f462e79da1849/Profilbild.jpg?v=1283924955
 about_content: |
-  Hi, my name is Adam Dahlgren Lindström, this is a website to keep relevant parties informed on the progress of my thesis writing. I am interested in language grounding in multimodal machine learning, neuro-symbolic methods, and compositional generalisation.
+  Hi, my name is Adam Dahlgren Lindström, this is a website to keep relevant parties informed on the progress of my thesis writing. I am interested in <mark>language grounding</mark> in <mark>multimodal machine learning</mark>, <mark>neuro-symbolic</mark> methods, and <mark>compositional generalisation</mark>.
 
   This thesis is on the effects of vision in learning language, and investigates how vision-centric concepts are represented, how reasoning tasks on multimodal data can help us understand language models, and how we can leverage vision for compositional generalisation.  I am writing a monographic thesis, with parts of chapters based on the papers listed below.
 
-  <h3>You can find the most up to date version of the thesis <a href="thesis.pdf">here</a><h3>
+  You can find the <mark>most up to date version of the thesis</mark> here':' <a href="thesis.pdf">thesis.pdf</a>
 
 content:
   - title: Research Questions
