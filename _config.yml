@@ -13,99 +13,20 @@ website: TBA
 
 # Dark Mode (true/false/never)
 darkmode: false
-
-# Social links
-#twitter_username: jekyllrb
-github_username:  dali-does
-orcid_username: 0000-0002-1112-2981
-googlescholar_username: LctkPQgAAAAJ
-
-# Additional icon links
-additional_links:
-- title: Google Scholar name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: https://www.umu.se/contentassets/82f461f9a9e44e6ba31f462e79da1849/Profilbild.jpg?v=1283924955
-about_content: | # this will include new lines to allow paragraphs
-  Internal page to keep relevant people informed of thesis work and progress.
-
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
     - Lists
     - Tables
     - <a href="google.com">Links</a>
 
-content:
-  - title: Research Questions
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
-        title: RQ 1
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Published work # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any
-                      # other value (or no value) means no border will be displayed
-        title: Probing COLING
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
-
 # Site
 repository: dali-does/thesis-page
 
 version: 2
-favicon: images/favicon.ico
+favicon: fa-fire
 
 # Personal info
 name: Adam Dahlgren Lindstrom
-title: PhD student
+title: PhD student, Umeå University
 email: dali@cs.umu.se
 website: TBA
 # website_title: Web (Website title override)
@@ -121,33 +42,99 @@ googlescholar_username: LctkPQgAAAAJ
 
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: https://www.umu.se/contentassets/82f461f9a9e44e6ba31f462e79da1849/Profilbild.jpg?v=1283924955
 about_content: |
-  Hi, my name is Adam Dahlgren Lindström, this is a website to keep relevant parties informed on the progress of my thesis writing.
+  Hi, my name is Adam Dahlgren Lindström, this is a website to keep relevant parties informed on the progress of my thesis writing. I am interested in language grounding in multimodal machine learning, neuro-symbolic methods, and compositional generalisation.
+
+  This thesis is on the effects of vision in learning language, and investigates how vision-centric concepts are represented, how reasoning tasks on multimodal data can help us understand language models, and how we can leverage vision for compositional generalisation.
+
+  I am writing a monographic thesis, with parts of chapters based on the papers listed below.
+
+  You can find the most up to date version of the thesis <a href="thesis.pdf">Here</a>
 
 content:
-  - title: RQs# Title for the section
+  - title: Research Questions
     layout: list
     content:
       - layout: top-middle
         border: weak
-        title: RQ 1
+        title: Research Question 1
         quote: >
-          A modern simple static resume template and theme. Powered by Jekyll and GitHub pages.
-        description: |
-          This is a <mark>Jekyll</mark> theme that I have recently created, in fact it is what this resume has been built with.
+          What are the contributions of introducing vision to language modeling?
+      - layout: top-middle
+        border: weak
+        title: Research Question 2
+        quote: >
+          What are advantages and disadvantages of neuro-symbolic methods in multimodal language processing?
+      - layout: top-middle
+        border: weak
+        title: Research Question 3
+        quote: >
+          Does utilizing hierarchical structures improve compositional generalisation in language grounding?
+      - layout: top-middle
+        border: weak
+        title: Research Question 4
+        quote: >
+          What are the challenges and opportunities for language-centric learning on multimodal data, and what future research directions are there?
 
   - title: Published work
     layout: list
     content:
       - layout: left
         border: weak
-        title: Probing
-        sub_title: Probing ...
-        caption: COLING 2020
+        title: COLING 2020
+        sub_title: Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case
+        link: https://aclanthology.org/2020.coling-main.64/
+        link_text: Read Paper Here
+        caption: Probing
         description: |
-          Taken accountability for the frontend of the payments product area within a commercial banking platform, becoming a go to for knowledge and technical decisions.
+          Semantic embeddings have advanced the state of the art for countless natural language processing tasks, and various extensions to multimodal domains, such as visual-semantic embeddings, have been proposed. While the power of visual-semantic embeddings comes from the distillation and enrichment of information through machine learning, their inner workings are poorly understood and there is a shortage of analysis tools. To address this problem, we generalize the notion of probing tasks to the visual-semantic case. To this end, we (i) discuss the formalization of probing tasks for embeddings of image-caption pairs, (ii) define three concrete probing tasks within our general framework, (iii) train classifiers to probe for those properties, and (iv) compare various state-of-the-art embeddings under the lens of the proposed probing tasks. Our experiments reveal an up to 12% increase in accuracy on visual-semantic embeddings compared to the corresponding unimodal embeddings, which suggest that the text and image dimensions represented in the former do complement each other.
+      - layout: left
+        border: weak
+        title: EMNLP 2021
+        sub_title: Bridging Perception, Memory, and Inference through Semantic Relations
+        link: https://aclanthology.org/2021.emnlp-main.719/
+        link_text: Read Paper Here
+        caption: Probing
+        description: |
+          There is a growing consensus that surface form alone does not enable models to learn meaning and gain language understanding. This warrants an interest in hybrid systems that combine the strengths of neural and symbolic methods. We favour triadic systems consisting of neural networks, knowledge bases, and inference engines. The network provides perception, that is, the interface between the system and its environment. The knowledge base provides explicit memory and thus immediate access to established facts. Finally, inference capabilities are provided by the inference engine which reflects on the perception, supported by memory, to reason and discover new facts. In this work, we probe six popular language models for semantic relations and outline a future line of research to study how the constituent subsystems can be jointly realised and integrated.
+      - layout: left
+        border: weak
+        title: IJCLR 2022
+        sub_title: CLEVR-Math: A Dataset for Compositional Language, Visual and Mathematical Reasoning
+        link: https://arxiv.org/abs/2208.05358
+        link_text: Read Paper Here
+        caption: Compositional Generalisation, Neuro-symbolic
+        description: |
+          We introduce CLEVR-Math, a multi-modal math word problems dataset consisting of simple math word problems involving addition/subtraction, represented partly by a textual description and partly by an image illustrating the scenario. The text describes actions performed on the scene that is depicted in the image. Since the question posed may not be about the scene in the image, but about the state of the scene before or after the actions are applied, the solver envision or imagine the state changes due to these actions. Solving these word problems requires a combination of language, visual and mathematical reasoning. We apply state-of-the-art neural and neuro-symbolic models for visual question answering on CLEVR-Math and empirically evaluate their performances. Our results show how neither method generalise to chains of operations. We discuss the limitations of the two in addressing the task of multi-modal word problem solving.
+      - layout: left
+        border: weak
+        title: AAAI Fall Symposium 2022
+        sub_title: Thinking Fast and Slow in Human-Centered AI
+        link: https://hal.inria.fr/hal-03991946/document
+        link_text: Read Paper Here
+        caption: Neuro-symbolic
+        description: |
+          Thinking Fast and Slow (Kahneman 2011) provides a simple mental model of how human intelligence builds on components with complementing responsibilities and capabilities. In computer science in general, and artificial intelligence research in particular, these ideas are used to inspire new methods and architectures. We argue that many of those methods use the concept of Thinking Fast and Slow as a token reference, while not living up to the definitions of dual-process systems from psychology. For instance, 'fast' is seen as synonymous with neural, and the autonomy of 'fast' seen in, e.g., fixed social interactions of social agents is lost. We further highlight that these ideas are misused in saying that humans are flawed and AI systems can fix that. Given that human bias is highly context-dependent, such simplistic applications of dual-process theory to AI are likely to fail. Thus, the narrative that AI systems will provide users with rationality is flawed. In a work in progress, we survey and categorise (mis)use of prospect theory and other dual-process theories. Building AI systems on the ideas of Tversky and Kahneman is a step in the right direction for a more human-centered artificial intelligence. With this work we want to emphasise the many things to consider in building systems that are Thinking Fast and Slow, and that the community is only scratching that surface.
+
+  - title: Unpublished work
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: TBA
+        sub_title: Learning hierarchical concepts for compositional generalisation
+        caption: Compositional Generalisation, Probing
+        description: |
+          We build a benchmark for compositional generalisation on top of a synthetic concept hierarchy. We use the benchmark to investigate effects of curriculum learning, scaling laws, and compositional generalisation characteristics. We use probing to examine the internal structures of models.
+      - layout: left
+        border: weak
+        title: TBA
+        sub_title: Confounding DeepProbLog with colored digits - neuro-symbolic methods and compositional generalisation
+        caption: Compositional Generalisation
+        description: |
+          One key argument for neuro-symbolic methods is that they should be able to generalise compositionally. In these experiments, we show how a common method, DeepProbLog, is easily confused by coloring MNIST digits during training.
 
 # Footer
 footer_show_references: false
