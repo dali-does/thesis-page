@@ -84,7 +84,7 @@ content:
       - layout: left
         border: weak
         title: COLING 2020
-        sub_title: Probing Multimodal Embeddings for Linguistic Properties: the Visual-Semantic Case
+        sub_title: Probing Multimodal Embeddings for Linguistic Properties
         link: https://aclanthology.org/2020.coling-main.64/
         link_text: Read Paper Here
         caption: Probing
@@ -102,7 +102,7 @@ content:
       - layout: left
         border: weak
         title: IJCLR 2022
-        sub_title: CLEVR-Math: A Dataset for Compositional Language, Visual and Mathematical Reasoning
+        sub_title: CLEVR-Math\: A Dataset for Compositional Language, Visual and Mathematical Reasoning
         link: https://arxiv.org/abs/2208.05358
         link_text: Read Paper Here
         caption: Compositional Generalisation, Neuro-symbolic
