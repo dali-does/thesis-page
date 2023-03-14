@@ -99,7 +99,7 @@ content:
           There is a growing consensus that surface form alone does not enable models to learn meaning and gain language understanding. This warrants an interest in hybrid systems that combine the strengths of neural and symbolic methods. We favour triadic systems consisting of neural networks, knowledge bases, and inference engines. The network provides perception, that is, the interface between the system and its environment. The knowledge base provides explicit memory and thus immediate access to established facts. Finally, inference capabilities are provided by the inference engine which reflects on the perception, supported by memory, to reason and discover new facts. In this work, we probe six popular language models for semantic relations and outline a future line of research to study how the constituent subsystems can be jointly realised and integrated.
       - layout: left
         border: weak
-        title: IJCLR 2022
+        title: NeSy@IJCLR 2022
         sub_title: 'CLEVR-Math: A Dataset for Compositional Language, Visual and Mathematical Reasoning'
         link: https://arxiv.org/abs/2208.05358
         link_text: Read Paper Here
@@ -133,6 +133,37 @@ content:
         caption: Compositional Generalisation
         description: |
           One key argument for neuro-symbolic methods is that they should be able to generalise compositionally. In these experiments, we show how a common method, DeepProbLog, is easily confused by coloring MNIST digits during training.
+
+  - title: Papers not included in thesis
+    layout: list
+    content:
+      - layout: left
+        border: weak
+        title: NSNLI@IJCAI 2021
+        sub_title: 'Perception, Memory, and Inference: The Trinity of Machine Learning'
+        link: https://nsnli.github.io/assets/Paper_ID5.pdf
+        link_text: Read Paper Here
+        caption: Neuro-symbolic
+        description: |
+          As an answer to recent contributions about the conjectured impossibility of learning meaning from surface form alone,and the dangers of large language models, we argue in this paper that an explicit distinction should be made between (i) perception, (ii) memory, and (iii) inference.  We envision a triad of interacting subsystems with corresponding responsibilities.  Perception provides the interface between  the  system  and  its  environment,  and  is  typically  realised as a language model.  Explicit Memory is a structure of concepts and relations between the concepts, in other words, a knowledge base of facts.   Inference,  finally,  corresponds to mathematical or rule-based reasoning and provides,  for ex-ample, classical logic and arithmetic. We note here that such axiomatic systems cannot be deduced from data,  only conjectured and tried against data.  Our position is that natural language systems should thus combine continuously updated language and other perception models (e.g., computer vision)with one or more symbolic knowledge bases that relieve the models from learning concepts and relations, and finally one or more inference engines to provide formal reasoning.
+      - layout: left
+        border: weak
+        title: LearnAut@ICALP 2022
+        sub_title: An Algebraic Approach to Learning and Grounding
+        caption: Grounding
+        link: https://arxiv.org/pdf/2204.02813.pdf
+        link_text: Read Paper Here
+        description: |
+          'We consider the problem of learning the semantics of composite algebraic expressions from examples. The outcome is a versatile framework for studying learning tasks that can be put into the following abstract form: The input is a partial algebra and a finite set of examples, each consisting of an algebraic term and a set of objects. The objective is to simultaneously fill in the missing algebraic operations in $\alg$ and ground the variables of every in term in objects, so that the combined value of the terms is optimised. We demonstrate the applicability of this framework through case studies in grammatical inference, picture-language learning, and the grounding of logic scene descriptions.'
+      - layout: left
+        border: weak
+        title: FAccT 2023
+        sub_title: TBA
+        caption: Fairness
+        description: |
+          Currently under review.
+
+
 
 # Footer
 footer_show_references: false
