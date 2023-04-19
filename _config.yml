@@ -138,7 +138,7 @@ content:
       - layout: left
         border: weak
         title: FAccT 2023
-        sub_title: ACROCPoLis: A Descriptive Framework for Making Sense of Fairness
+        sub_title: 'ACROCPoLis: A Descriptive Framework for Making Sense of Fairness'
         caption: Fairness
         description: |
           Accepted, final submission not yet available.
