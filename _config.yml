@@ -102,6 +102,13 @@ content:
       - layout: left
         border: weak
         title: TBA
+        sub_title: Benchmark for Compositional Generalisation based on CLEVR-Math
+        caption: Compositional Generalisation
+        description: |
+          We use CLEVR-Math to create compositional generalisation splits as a benchmark for compositional generalisation on CLEVR attributes and program length.
+      - layout: left
+        border: weak
+        title: TBA
         sub_title: Learning hierarchical concepts for compositional generalisation
         caption: Compositional Generalisation, Probing
         description: |
@@ -144,13 +151,13 @@ content:
           'We consider the problem of learning the semantics of composite algebraic expressions from examples. The outcome is a versatile framework for studying learning tasks that can be put into the following abstract form: The input is a partial algebra and a finite set of examples, each consisting of an algebraic term and a set of objects. The objective is to simultaneously fill in the missing algebraic operations in $\alg$ and ground the variables of every in term in objects, so that the combined value of the terms is optimised. We demonstrate the applicability of this framework through case studies in grammatical inference, picture-language learning, and the grounding of logic scene descriptions.'
       - layout: left
         border: weak
-        title: FAccT 2023
+        title: FAccT 2023,
         sub_title: 'ACROCPoLis: A Descriptive Framework for Making Sense of Fairness'
         caption: Fairness
         link: https://arxiv.org/abs/2304.11217
         link_text: Read Paper Here
         description: |
-          Accepted, under revision.
+          Fairness is central to the ethical and responsible development and use of AI systems, with a large number of frameworks and formal notions of algorithmic fairness being available. However, many of the fairness solutions proposed revolve around technical considerations and not the needs of and consequences for the most impacted communities. We therefore want to take the focus away from definitions and allow for the inclusion of societal and relational aspects to represent how the effects of AI systems impact and are experienced by individuals and social groups. In this paper, we do this by means of proposing the ACROCPoLis framework to represent allocation processes with a modeling emphasis on fairness aspects. The framework provides a shared vocabulary in which the factors relevant to fairness assessments for different situations and procedures are made explicit, as well as their interrelationships. This enables us to compare analogous situations, to highlight the differences in dissimilar situations, and to capture differing interpretations of the same situation by different stakeholders.
 
 
 
