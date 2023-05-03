@@ -96,7 +96,7 @@ content:
         description: |
           Thinking Fast and Slow (Kahneman 2011) provides a simple mental model of how human intelligence builds on components with complementing responsibilities and capabilities. In computer science in general, and artificial intelligence research in particular, these ideas are used to inspire new methods and architectures. We argue that many of those methods use the concept of Thinking Fast and Slow as a token reference, while not living up to the definitions of dual-process systems from psychology. For instance, 'fast' is seen as synonymous with neural, and the autonomy of 'fast' seen in, e.g., fixed social interactions of social agents is lost. We further highlight that these ideas are misused in saying that humans are flawed and AI systems can fix that. Given that human bias is highly context-dependent, such simplistic applications of dual-process theory to AI are likely to fail. Thus, the narrative that AI systems will provide users with rationality is flawed. In a work in progress, we survey and categorise (mis)use of prospect theory and other dual-process theories. Building AI systems on the ideas of Tversky and Kahneman is a step in the right direction for a more human-centered artificial intelligence. With this work we want to emphasise the many things to consider in building systems that are Thinking Fast and Slow, and that the community is only scratching that surface.
 
-  - title: Unpublished work
+  - title: Unpublished or ongoing work
     layout: list
     content:
       - layout: left
@@ -113,6 +113,13 @@ content:
         caption: Compositional Generalisation
         description: |
           One key argument for neuro-symbolic methods is that they should be able to generalise compositionally. In these experiments, we show how a common method, DeepProbLog, is easily confused by coloring MNIST digits during training.
+      - layout: left
+        border: weak
+        title: TBA
+        sub_title: 'Human-Centered perspective on RLHF'
+        caption: LLMs, HCAI
+        description: |
+          RLHF is proposed as a method to align LLMs with humans. We problematise RLHF from a human-centered AI-perspective, and compare models using RLHF according to theories from philosophy and human-computer interaction.
 
   - title: Papers not included in thesis
     layout: list
@@ -140,8 +147,10 @@ content:
         title: FAccT 2023
         sub_title: 'ACROCPoLis: A Descriptive Framework for Making Sense of Fairness'
         caption: Fairness
+        link: https://arxiv.org/abs/2304.11217
+        link_text: Read Paper Here
         description: |
-          Accepted, final submission not yet available.
+          Accepted, under revision.
 
 
 
